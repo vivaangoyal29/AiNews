@@ -75,15 +75,15 @@ Welcome to the Gemini News Generator! This project uses the Gemini API to genera
 
 ```
 ├── backend/
-    │   ├── package-lock.json
-    │   ├── package.json
-    │   ├── server.js
-    │   ├── vercel.json
-    │   └── .gitignore
-    └── frontend/
-        ├── app.js
-        ├── index.html
-        └── styles.css
+|   │   ├── package-lock.json
+|   │   ├── package.json
+|   │   ├── server.js
+|   │   ├── vercel.json
+|   │   └── .gitignore
+└── frontend/
+    ├── app.js
+    ├── index.html
+    └── styles.css
 ```
 
 ## Contributing 🤝
