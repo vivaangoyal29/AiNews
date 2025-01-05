@@ -4,7 +4,7 @@ document.getElementById("fetch-news").addEventListener("click", async () => {
     newsContainer.innerHTML = "<p>Loading...</p>";
   
     try {
-      const response = await fetch(`/api/news?category=${category}`);
+      const response = await fetch(`https://ai-news-backend.vercel.app/api/news?category=${category}`);
       if (!response.ok) throw new Error("Failed to fetch news");
   
       const data = await response.json();
